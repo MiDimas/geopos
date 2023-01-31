@@ -1,11 +1,11 @@
 #video{
-    width: 480px;
+    width: 100%;
     border: 1px solid silver;
 }
 
 #photo{
     border: 1px solid silver;
-    width: 480px;
+    width: 100%;
 }
 
 #canvas{
@@ -14,7 +14,7 @@
 
 #camera, #output{
     display: inline-block;
-    width: 500px;
+    min-width: 300px;
 }
 
 #getPhoto{

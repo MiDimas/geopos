@@ -22,7 +22,7 @@
 
         navigator.mediaDevices.getUserMedia({
             video: {
-                facingMode: {exact: 'enviroment'}
+                facingMode: {exact: 'environment'}
             },
             audio: false
         })
@@ -64,9 +64,12 @@
                             longitude = position.coords.longitude;
                             console.log("Ваши координаты", latitude, longitude)
 
+
                         },
                         positionError => {
                             console.log("Произошла ошибка" + positionError)
+                            alert("Пожалуйста запустите геопозицию на вашем устройстве, для доступа к данной функции")
+
                         })
                 }
                 else{
