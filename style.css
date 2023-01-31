@@ -1,0 +1,30 @@
+#video{
+    width: 480px;
+    border: 1px solid silver;
+}
+
+#photo{
+    border: 1px solid silver;
+    width: 480px;
+}
+
+#canvas{
+    display: none;
+}
+
+#camera, #output{
+    display: inline-block;
+    width: 500px;
+}
+
+#getPhoto{
+    display: block;
+    position: relative;
+    margin: 10px auto;
+    bottom: 90px;
+    background-color: #ae60f3;
+    border: 1px solid #5e1291;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    color: white;
+}
